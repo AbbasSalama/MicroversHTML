@@ -1,0 +1,45 @@
+body {
+  background: #2C3333;
+  color: #A5C9CA;
+
+}
+
+h1, p {
+  text-align: center;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 500px;
+  min-width: 250px;
+  margin: auto;
+  background-color: #395B64;
+  color: white;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+input, select, textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  height: 50px;
+}
+
+input[type='radio'], input[type='checkbox']{
+  width: 20px;
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+}
